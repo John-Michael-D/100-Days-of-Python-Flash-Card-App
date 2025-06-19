@@ -1,1 +1,1 @@
-# 100-Days-of-Python-Flash-Card-App
+This is a simple flash card program that allows the user create decks, add cards to the deck of their choosing, and it gives the user the option of editing and deleting those cards. After selecting a deck to study, the program randomly chooses a card to present to the user. Once all of the cards in the deck have been shown, the program gives the user the option of continuing to study the cards they struggled to understand.
