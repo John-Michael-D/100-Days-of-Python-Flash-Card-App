@@ -270,8 +270,7 @@ def studyDeckSelection():
         try:
             selectedDeck = windowStudyDeckSelectionListBox.get(windowStudyDeckSelectionListBox.curselection())
         except TclError:
-            windowStudyDeckSelection.destroy()
-            messagebox.showerror(title="Error!", message="You must select a card to study!")
+            pass
         else:
             buttonRoot1.place_forget()
             buttonRoot2.place_forget()
